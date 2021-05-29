@@ -1,0 +1,479 @@
+h1 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36.07px;
+    line-height: 52px;
+    /* or 146% */
+    font-feature-settings: 'liga' off;
+    /* Text / Gray 900 */
+    color: #18191F;
+}
+
+a:hover,
+a:focus {
+    color: inherit
+}
+
+.title1 ul li,
+p {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    font-feature-settings: 'liga' off;
+    /* Text / Gray 900 */
+    color: #18191F;
+}
+
+.bg-blue1 {
+    color: #3badd4fa;
+    background-color: #39aed636;
+}
+
+.tile4 img {
+    max-width: 100%;
+}
+
+.client img {
+    max-width: 130px;
+}
+
+.logo img {
+    max-width: 50px;
+}
+
+.tile2 .img1 {
+    padding-top: 30px;
+}
+
+.btn-login1 {
+    color: #3badd4fa !important;
+    background-color: #39aed636;
+    padding: 8px 20px;
+}
+
+button a {
+    text-decoration: none;
+}
+
+.btn-signup1 {
+    padding: 8px 20px;
+    width: 120px;
+}
+
+.title1 {
+    padding-top: 100px;
+}
+
+.tile,
+.tile3,
+.tile4,
+.tile1 {
+    padding-top: 60px;
+}
+
+.btn-tile1 {
+    padding-top: 35px;
+}
+
+.skew {
+    position: absolute;
+    top: 0;
+}
+
+.image {
+    padding-right: 10em;
+}
+
+.img1 {
+    float: none;
+    padding-right: 9em;
+    margin: 0 auto;
+    text-align: center;
+    padding-right: 9em;
+}
+
+.tile3 .contents {
+    padding: 3rem;
+}
+
+.padding-10-right {
+    padding-right: 7rem !important;
+}
+
+.tile11,
+.tile7,
+.tile6,
+.tile5 {
+    padding-top: 120px;
+}
+
+.get-started p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    font-feature-settings: 'liga' off;
+    color: #3BADD4;
+    display: inline;
+    padding-right: 10px;
+}
+
+.tile9-wrap {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.tile9 {
+    padding: 120px 70px;
+}
+
+.tile9 .text-wrapper {
+    padding-top: 40px;
+}
+
+.text-wrapper h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    /* Text / Gray 900 */
+    font-family: 'Manrope', sans-serif;
+    color: #18191F;
+}
+
+.semi-circle {
+    border: 0px solid;
+    padding-right: 6rem;
+    padding-bottom: 5rem;
+    border-radius: 0px 0px 90% 0;
+    position: relative;
+    top: -2px;
+    /* max-width: 105px; */
+}
+
+.pos-abs {
+    position: absolute;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.circle-2 {
+    padding-right: 5rem;
+    padding-left: 3rem;
+    padding-top: 4rem;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    position: relative;
+    top: 12rem;
+    left: 6rem;
+}
+
+.right-wrap1,
+.left-wrap2.padding-10-left {
+    padding-top: 7rem;
+}
+
+.right-wrap1 a {
+    color: #3BADD4;
+}
+
+.title9 {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 540px;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+/*                                 footer css                                 */
+
+
+/* -------------------------------------------------------------------------- */
+
+footer {
+    width: 100%;
+    background-color: #1b262c;
+    padding: 2rem 0;
+}
+
+footer .inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer .inner small {
+    color: #ffffff;
+}
+
+footer .inner .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+footer .inner .social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #4b5461;
+    color: #ffffff;
+}
+
+footer .inner .social a svg {
+    height: 24px;
+}
+
+footer .inner .social a+a {
+    margin-left: 1rem;
+}
+
+.link {
+    padding-top: 15px;
+}
+
+.link a {
+    color: #ffffff;
+}
+
+.link a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    font-family: 'Manrope', sans-serif;
+}
+
+.link a+a {
+    margin-left: 20px;
+}
+
+.f-img {
+    display: inline;
+}
+
+.f-img img {
+    max-width: 90px;
+}
+
+.images-footer {
+    padding: 20px 0;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+.url-700,
+.url-500 {
+    display: none;
+}
+
+.d-flex.flex-row.btn-tile1 div {
+    display: inline;
+}
+
+.btn-tile1 {
+    padding-top: 35px;
+    margin: 0 auto;
+    display: block !important;
+    flex-direction: unset !important;
+}
+
+@media screen and (max-width:991px) {
+    img {
+        max-width: 100%;
+    }
+    .padding-10-right,
+    .padding-10-left {
+        padding-right: 2rem !important;
+        padding-left: 2rem;
+    }
+    .title1 {
+        padding-top: 27px;
+    }
+    .img,
+    .img2,
+    .img1 {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        padding: 3em 0 0 0;
+    }
+    .tile10 .title1 h1 {
+        text-align: center;
+    }
+    .very-small-screen,
+    .small-screen {
+        display: block !important;
+    }
+    .no-show,
+    .circle-2 {
+        display: none !important;
+    }
+    .url-700 {
+        display: block;
+    }
+    .url-700 a {
+        display: inline;
+        padding: 10px;
+        text-decoration: none;
+        color: #3badd4fa;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .btn-tile1 {
+        padding-top: 35px;
+        text-align: center;
+        margin: 0 auto;
+        display: block !important;
+        flex-direction: unset !important;
+    }
+    .tile2 .btn-custom {
+        font-size: 14px;
+        width: 125px;
+        padding: 1rem 0.7rem;
+    }
+    h1 {
+        font-size: 28.07px;
+        line-height: 40px;
+    }
+    .img,
+    .img2,
+    .img1,
+    .img2,
+    .tile4 {
+        padding: 0;
+    }
+    .bold-font-25 {
+        font-size: 1.5rem;
+    }
+    .btn-started-large {
+        font-size: 1rem;
+    }
+    .tile9 {
+        padding: 20px 0;
+    }
+    .tile9-wrap {
+        padding: 50px 20px 40px;
+    }
+    .no-show,
+    .circle-2 {
+        display: none;
+    }
+    .right-wrap1 {
+        padding-top: 2rem;
+    }
+    .tile11 .w-30,
+    .tile11 .w-50 {
+        padding: 2rem;
+        width: 100% !important;
+        text-align: center;
+        margin: 0 !important;
+    }
+    .tile11 .w-30 {
+        padding: 2rem;
+        width: 100% !important;
+        text-align: left;
+    }
+    .tile11,
+    .tile7,
+    .tile6,
+    .tile5 {
+        padding-top: 60px;
+    }
+    .very-small-screen,
+    .small-screen {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .images-footer.header-img {
+        padding: 0;
+    }
+    .images-footer.header-img .f-img {
+        padding-right: 0 !important;
+    }
+    .url.small-screen-show a {
+        color: #3badd4fa;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .url.small-screen-show a+a {
+        padding-left: 10px;
+    }
+    .url.small-screen-show p {
+        margin: 0;
+    }
+    p.cross,
+    p.show-cross,
+    #mySidebar {
+        display: none;
+    }
+    .sidebar.active {
+        display: block !important;
+        height: 100vh;
+        width: 100vw;
+    }
+    p.show-cross.cross {
+        display: block !important;
+        position: absolute;
+        right: 1em;
+        top: 0;
+    }
+    div#mySidebar {
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+    #mySidebar a {
+        display: block;
+        padding: 10px;
+        font-weight: 500;
+        text-decoration: none;
+        color: #000;
+        border-bottom: 1px solid gainsboro;
+        margin-right: 25px;
+    }
+    .url-500 {
+        display: block;
+    }
+    .url-700 {
+        display: none;
+    }
+    .url.url-500>p {
+        padding-top: 10px;
+    }
+    .no-pad-500 {
+        padding: 0;
+    }
+    .border-screen {
+        border-top: 1px solid gainsboro;
+    }
+    .images-footer.small-screen-show.header-img {
+        padding: 10px 10px;
+    }
+}

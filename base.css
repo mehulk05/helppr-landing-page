@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+*::selection {
+    background-color: #f6f6f6 !important;
+    color: #3badd4fa !important;
+    border: none !important;
+}
+
+
+
+body {
+    box-sizing: border-box;
+}
+
+.no-overflow{
+    overflow: hidden !important;
+}
