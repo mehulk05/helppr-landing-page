@@ -337,6 +337,11 @@ footer .inner .social a+a {
     min-width: 200px
 }
 
+.tile10 .title1.ptt20 {
+    max-width: 100%;
+    padding-top: 0;
+}
+
 @media screen and (max-width:991px) {
     .tile2 {
         padding-top: 0px;
