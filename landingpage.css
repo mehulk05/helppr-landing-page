@@ -10,6 +10,14 @@ h1 {
     color: #18191F;
 }
 
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
 a:hover,
 a:focus {
     color: inherit
@@ -20,7 +28,7 @@ p {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 32px;
     /* or 178% */
     font-feature-settings: 'liga' off;
@@ -34,7 +42,7 @@ p {
 }
 
 .tile4 img {
-    max-width: 100%;
+    max-width: 442px;
 }
 
 .client img {
@@ -45,9 +53,7 @@ p {
     max-width: 50px;
 }
 
-.tile2 .img1 {
-    padding-top: 30px;
-}
+.tile2 .img1 {}
 
 .btn-login1 {
     color: #3badd4fa !important;
@@ -63,8 +69,6 @@ button a {
     padding: 8px 20px;
     width: 120px;
 }
-
-.title1 {}
 
 .tile,
 .tile3,
@@ -300,7 +304,42 @@ footer .inner .social a+a {
     flex-direction: unset !important;
 }
 
+.ptt20 {
+    padding-top: 40px;
+}
+
+.title1 {
+    max-width: 450px
+}
+
+.tile2 .title1 p {
+    padding-top: 20px
+}
+
+.tile2 {
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.btn-signup,
+.btn-login1 {
+    min-width: 140px
+}
+
+.btn-login-large,
+.btn-signup-large {
+    max-width: 200px;
+    min-width: 200px
+}
+
 @media screen and (max-width:991px) {
+    .tile2 {
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+    .ptt20 {
+        padding-top: 0;
+    }
     img {
         max-width: 100%;
     }
@@ -354,6 +393,8 @@ footer .inner .social a+a {
         font-size: 14px;
         width: 125px;
         padding: 1rem 0.7rem;
+        min-width: unset;
+        max-width: 125px;
     }
     h1 {
         font-size: 28.07px;
@@ -407,9 +448,15 @@ footer .inner .social a+a {
     .small-screen {
         display: block !important;
     }
+    .tile2 .img1 {
+        padding-top: 35px;
+    }
 }
 
 @media screen and (max-width:500px) {
+    .tile4 img {
+        max-width: 100%;
+    }
     .images-footer.header-img {
         padding: 0;
     }
