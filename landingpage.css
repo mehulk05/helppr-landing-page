@@ -313,16 +313,22 @@ footer .inner .social a+a {
 }
 
 .title1 {
-    max-width: 450px
+    max-width: 500px
 }
 
 .tile2 .title1 p {
-    padding-top: 20px
+    padding-top: 20px;
+    font-size: 18px;
 }
 
 .tile2 {
     padding-top: 50px;
     padding-bottom: 120px;
+}
+
+.tile2 h1 {
+    font-size: 50px;
+    line-height: 75px;
 }
 
 .btn-signup,
@@ -340,6 +346,10 @@ footer .inner .social a+a {
 .tile10 .title1.ptt20 {
     max-width: 100%;
     padding-top: 0;
+}
+
+div#lottie svg {
+    max-width: 80%
 }
 
 @media screen and (max-width:991px) {
@@ -392,6 +402,9 @@ footer .inner .social a+a {
 }
 
 @media screen and (max-width:767px) {
+    div#lottie svg {
+        max-width: 100%;
+    }
     .btn-tile1 {
         padding-top: 35px;
         text-align: center;
@@ -409,6 +422,13 @@ footer .inner .social a+a {
     h1 {
         font-size: 28.07px;
         line-height: 40px;
+    }
+    .tile2 h1 {
+        font-size: 28.07px;
+        line-height: 40px;
+    }
+    .tile2 .title1 p {
+        font-size: 16px;
     }
     .img,
     .img2,

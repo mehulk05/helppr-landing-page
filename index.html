@@ -134,7 +134,8 @@
 
     <div class="col-lg-6 order-1 col-md-12  col-sm-12 order-1 order-lg-2">
         <div class="img1">
-            <img src="./images/SVGTextFrame.gif">
+            <div id="lottie"></div>
+            <!-- <img src="./images/SVGTextFrame.gif"> -->
         </div>
     </div>
     </div>
@@ -486,6 +487,24 @@
 
     <!-- Custom Javscript -->
     <script src="main.js"></script>
+    <script src="svg-setup.js"></script>
+    <script src="svg-animation.js"></script>
+
+
+    <script>
+        var params = {
+            container: document.getElementById('lottie'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            animationData: animationData
+        };
+
+        var anim;
+
+        anim = lottie.loadAnimation(params);
+    </script>
+
 
 </body>
 
