@@ -46,11 +46,15 @@ p {
 }
 
 .client img {
-    max-width: 130px;
+    max-width: 100px;
+}
+
+.logo-text img {
+    max-width: 50px;
 }
 
 .logo img {
-    max-width: 50px;
+    max-width: 40px;
 }
 
 .tile2 .img1 {}
