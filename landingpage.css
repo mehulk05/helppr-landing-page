@@ -62,7 +62,7 @@ p {
 .btn-login1 {
     color: #3badd4fa !important;
     background-color: #39aed636;
-    padding: 8px 20px;
+    padding: 8px 16px;
 }
 
 button a {
@@ -327,7 +327,8 @@ footer .inner .social a+a {
 
 .btn-signup,
 .btn-login1 {
-    min-width: 140px
+    min-width: 100px;
+    font-size: 0.8rem;
 }
 
 .btn-login-large,
