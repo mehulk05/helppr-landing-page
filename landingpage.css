@@ -348,9 +348,11 @@ footer .inner .social a+a {
     padding-top: 0;
 }
 
+
+/* 
 div#lottie svg {
     max-width: 80%
-}
+} */
 
 @media screen and (max-width:991px) {
     .tile2 {
